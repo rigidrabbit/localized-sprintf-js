@@ -1,8 +1,8 @@
 # localized-sprintf-js
 
-**localized-sprintf-js** is a customized version of **sprintf-js** library which can be used for localize your numbers, prices and date representations.
+**localized-sprintf-js** is a customized version of [**sprintf-js**](https://github.com/alexei/sprintf.js) library which can be used for localize your numbers, prices and date representations.
 
-**Note: as of v1.1.1 you might need some polyfills for older environments. See [Support](#support) section below.**
+**Note: you might need some polyfills for older environments. See [Support](#support) section below.**
 
 ## How to get your numbers localized
 
@@ -181,7 +181,7 @@ Unfortunately the intl implementation of node.js is not perfect, thus you should
 
 ### Browser
 
-`localized-sprintf-js` should work in all modern browsers. As of v1.1.1, you might need polyfills for the following:
+Though `localized-sprintf-js` should work in all modern browsers, you might need polyfills for the following:
 
  - `String.prototype.repeat()` (any IE)
  - `Array.isArray()` (IE < 9)

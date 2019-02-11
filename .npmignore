@@ -3,6 +3,7 @@
 .eslintrc.js
 /.git/
 .gitignore
+/.idea/
 .npmignore
 .travis.yml
 CHANGELOG.md
